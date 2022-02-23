@@ -1,0 +1,17 @@
+CMESDK Release Notes
+====================
+
+
+
+This file contains information pertaining to the releases of the  
+Performance Motion Devices C-Motion Engine Software Development Kit (PMD CME SDK).
+
+
+
+Version 0.21	12/23/2020
+  Fixed - PMDRP.c, PMDRP.h had incorrect definitions for SendPacket and ReceivePacket 
+causing the base class version to be called returning PMD_ERR_InterfaceNotInitialized.
+
+
+Version 0.20 
+  First beta version
